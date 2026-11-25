@@ -2,9 +2,9 @@ import pandas as pd
 from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import QApplication, QCheckBox, QComboBox, QFileDialog, QLabel, QLineEdit, QMessageBox, QPushButton
 
-import cleaning
-from data_store import FILE_FILTER, load_dataframe
-from widgets import (
+import core.cleaning as cleaning
+from core.data_store import FILE_FILTER, load_dataframe
+from ui.widgets import (
     FAILED, ColumnComboBox, ColumnListWidget, OperationPanel, ResultView, SectionWindow,
     call_user_function,
 )

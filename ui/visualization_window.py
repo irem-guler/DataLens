@@ -1,7 +1,7 @@
 from PyQt6.QtWidgets import QCheckBox
 
-import visualization
-from widgets import (
+import core.visualization as visualization
+from ui.widgets import (
     FAILED, ColumnComboBox, ColumnListWidget, OperationPanel, PlotCanvas, SectionWindow,
     call_user_function,
 )

@@ -7,13 +7,13 @@ from PyQt6.QtWidgets import (
     QVBoxLayout, QWidget, QStackedWidget,
 )
 
-import export
-from simple_theme import apply_theme
-from analysis_window import AnalysisWindow
-from data_store import FILE_FILTER, DataStore, load_dataframe
-from transform_window import TransformWindow
-from visualization_window import VisualizationWindow
-from widgets import FAILED, DataFrameView, call_user_function
+import core.export as export
+from ui.simple_theme import apply_theme
+from ui.analysis_window import AnalysisWindow
+from core.data_store import FILE_FILTER, DataStore, load_dataframe
+from ui.transform_window import TransformWindow
+from ui.visualization_window import VisualizationWindow
+from ui.widgets import FAILED, DataFrameView, call_user_function
 
 PREVIEW_ROWS = 100
 

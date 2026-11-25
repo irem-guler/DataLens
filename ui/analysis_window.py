@@ -1,7 +1,7 @@
 from PyQt6.QtWidgets import QComboBox, QLineEdit, QSpinBox
 
-import analysis
-from widgets import (
+import core.analysis as analysis
+from ui.widgets import (
     FAILED, ColumnComboBox, ColumnListWidget, OperationPanel, ResultView, SectionWindow,
     call_user_function,
 )
